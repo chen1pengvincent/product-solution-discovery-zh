@@ -124,9 +124,20 @@ npx skills add https://github.com/chen1pengvincent/product-solution-discovery-zh
 
 Agent 缺少联网、文件、图表或结构化提问能力时，Skill 会退化为普通对话流程，并把无法验证的外部事实明确标记为未验证。
 
-## 来源与改造
+## 致敬原作与来源
 
-本 Skill 派生自 [`parcadei/continuous-claude-v3` 的 `discovery-interview`](https://github.com/parcadei/continuous-claude-v3/tree/d07ff4b06b62f43771bc0c927d0211b734d6149e/.claude/skills/discovery-interview)，固定来源提交为 [`d07ff4b06b62f43771bc0c927d0211b734d6149e`](https://github.com/parcadei/continuous-claude-v3/commit/d07ff4b06b62f43771bc0c927d0211b734d6149e)。
+> [!IMPORTANT]
+> **致敬原作**：感谢 Cosimo Streppone 与 [`parcadei/continuous-claude-v3`](https://github.com/parcadei/continuous-claude-v3) 将 `discovery-interview` 以 MIT License 公开。原作提供的多轮需求访谈方法是本项目的起点；本版本在明确承认原作贡献的前提下，继续完成中文化、跨模型与跨 Agent 解耦，以及对抗式审查和产品方案模板扩展。
+
+| 溯源项 | 明确信息 |
+|---|---|
+| 原始 Skill | [`discovery-interview`](https://github.com/parcadei/continuous-claude-v3/tree/d07ff4b06b62f43771bc0c927d0211b734d6149e/.claude/skills/discovery-interview) |
+| 上游仓库 | [`parcadei/continuous-claude-v3`](https://github.com/parcadei/continuous-claude-v3) |
+| 固定来源提交 | [`d07ff4b06b62f43771bc0c927d0211b734d6149e`](https://github.com/parcadei/continuous-claude-v3/commit/d07ff4b06b62f43771bc0c927d0211b734d6149e) |
+| 原始许可证 | [MIT License](https://github.com/parcadei/continuous-claude-v3/blob/d07ff4b06b62f43771bc0c927d0211b734d6149e/LICENSE) |
+| 原作版权 | Copyright (c) 2026 Cosimo Streppone |
+
+### 本版本的改造
 
 主要改造包括：
 
